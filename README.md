@@ -1,6 +1,17 @@
-# Creador de Python git ignore:
+# Creador de Python gitignore:
 
 Este repositorio cumple el objetivo de poder crear tus archivos ".gitignore" con el schema de python.
+
+Ejemplo:
+
+- Carpeta-Ejemplo:
+  - venv
+  - cache
+  - main.py
+  - .gitignore
+
+Esto quiere decir que con sólo ejecutar el comando **py-ignore** en nuestra terminal, nos posicionaremos en
+cualquier carpeta y crearemos nuestro archivo .gitignore
 
 ## Sigue los pasos a continuación:
 
