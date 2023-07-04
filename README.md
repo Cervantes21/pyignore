@@ -44,9 +44,15 @@ Una vez en el editor copiaremos y pegaremos esta línea de código, en el archiv
 ```
 # Pyignore
 # Agrega la carpeta de scripts al PATH
-export PATH=$PATH:~/pyignore
+export PATH=$PATH:~/pyignore/py-ignore.sh
+alias pyignore='py-ignore.sh'
 ```
 Guardamos y salimos con la tecla **ESC** y luego **wq!**
+
+**Damos permisos para que nuestro script sea ejecutable:**
+```
+chmod +x py-ignore.sh
+```
 
 y posteriormente podemos reinicar nuestra terminal, o bien usar el comando:
 
@@ -65,10 +71,16 @@ Copiamos y pegamos en el archivo **/.bashrc**
 ```
 # Pyignore
 # Agrega la carpeta de scripts al PATH
-export PATH=$PATH:~/pyignore
+export PATH=$PATH:~/pyignore/py-ignore.sh
+alias pyignore='py-ignore.sh'
 ```
 
 Guardamos y salimos con **wq!**
+
+**Damos permisos para que sea ejecutable:**
+```
+chmod +x py-ignore.sh
+```
 
 y posteriormente podemos reiniciar la terminar, o usar el comando:
 
